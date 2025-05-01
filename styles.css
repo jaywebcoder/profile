@@ -1,0 +1,46 @@
+.skill-badge {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #dee2e6;
+  }
+  
+  .skill-badge:hover {
+    background-color: #c9184a;
+    color: white;
+    transition: 0.3s;
+  }
+  img.rounded-circle {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  img.rounded-circle:hover {
+    transform: scale(1.05);
+  }
+  
+
+
+  /* General card image styling */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* fixed height */
+    object-fit: cover; /* ensures image covers the box without distortion */
+    border-top-left-radius: 0.5rem; /* slightly rounded top corners */
+    border-top-right-radius: 0.5rem;
+    padding: 5px;
+  }
+  
+  /* Optional: add a subtle hover effect */
+  .card-img-top:hover {
+    transform: scale(1.03); /* slight zoom on hover */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Make sure the card itself handles overflow */
+  .card {
+    overflow: hidden;
+  }
+  
